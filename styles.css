@@ -14,11 +14,11 @@ body{
 header{
     display: flex;
     background-color: #A1CCD1;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     height: 50px;
     padding: 0 20px;
-    gap: 100px;
+    gap: 10px;
 }
 
 h1{
@@ -32,8 +32,8 @@ h1{
 }
 .search{
     display: flex;
-    /* flex: 2; */
-
+    flex: 1;
+    /* width: 100%; */
 }
 .search-form{
     border-radius: 15px;;
@@ -164,6 +164,13 @@ footer{
     background-color: #A1CCD1;
     /* background-color: blue; */
     height: 20px;
-    /* align-items: end; */
     align-content: end;
+}
+
+@media (max-width:475px){
+    header{
+        flex-direction: column;
+        height: fit-content;
+        padding: 8px 0;
+    }
 }
