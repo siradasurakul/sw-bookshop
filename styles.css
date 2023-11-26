@@ -7,7 +7,7 @@ p{
 }
 body{
     background-color: #A1CCD1;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -163,8 +163,8 @@ img {
 footer{
     background-color: #A1CCD1;
     /* background-color: blue; */
-    height: 20px;
-    align-content: end;
+    height: 30px;
+    /* align-content: end; */
 }
 
 @media (max-width:475px){
