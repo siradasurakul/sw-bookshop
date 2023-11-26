@@ -1,0 +1,15 @@
+.navbar{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.navlist{
+    display: flex;
+    
+}
+
+
+.navitem {
+    color: white;
+    align-items: center;
+}
